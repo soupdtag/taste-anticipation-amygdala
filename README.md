@@ -9,6 +9,13 @@ This repository contains all scripts used to conduct pre-processing and analysis
 
 "Can we taste with our eyes?" is our final group project for "Decoding the Brain: Multivariate Analysis in Cognitive Neuroscience", taught by Dr. Yuan Tao in Fall 2018. Submitted December 14, 2018.
 
+ - [README.md](README.md)
+ - [amygdala-mni-sym_3mm_mask.nii.gz](amygdala-mni-sym_3mm_mask.nii.gz) - fMRI data, pre-processed to match resolution of amygdala mask
+ - [binary-amygdala-mni-sym_3mm_mask.nii.gz](binary-amygdala-mni-sym_3mm_mask.nii.gz) - fMRI data, with amygdala mask applied
+ - [binary-mask-conversion-script.ipynb](binary-mask-conversion-script.ipynb) - script applying binary mask to fMRI data
+ - [cwtwoe_script.ipynb](cwtwoe_script.ipynb) - script containing all analysis
+ - [labels.txt](labels.txt) - food/non-food labels for fMRI images
+ - [sub-01-anat-sub-01_T1w.nii.gz](sub-01-anat-sub-01_T1w.nii.gz) - original anatomical MRI scan
 
 ## References
 Lalumiere R. T. (2014). Optogenetic dissection of amygdala functioning. *Frontiers in behavioral neuroscience*, 8, 107. 
